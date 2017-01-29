@@ -1,0 +1,4 @@
+ew1:
+  minigame: endwars
+  host: localhost
+  port: 25570

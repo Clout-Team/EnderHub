@@ -1,0 +1,30 @@
+name: EnderHub
+version: 1.0.0
+description: The hub plugin for EnderCraft
+author: Rexcantor64
+authors: [MasterDoctor, Clout-Team]
+website: https://endercraft.uk
+main: uk.endercraft.enderhub.EnderHub
+depend: [EnderCore, ProtocolLib]
+commands:
+    rank:
+        description: Set a player rank
+    coins:
+        description: See your coin amount
+    tokens:
+        description: See your token amount
+    globalcoins:
+        description: Manage global coins
+    globaltokens:
+        description: Manage global tokens
+    disguise:
+        description: Hide yourself from other players
+    forcebuild:
+        description: Allow/deny building
+    setspawn:
+        description: Set the spawn
+    spawn:
+        description: Go to the spawn
+permissions:
+    admin:
+        default: op
